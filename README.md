@@ -1,4 +1,5 @@
 # Terraform AWS EC2 Otomasyonu — EIP, EBS ve Web Sunucusu Kurulumu
+<img width="1536" height="1024" alt="ChatGPT Image 27 Ara 2025 19_38_53" src="https://github.com/user-attachments/assets/51292b1b-17d8-4fe7-a1d4-a4053c66091b" />
 
 ## 📌 Proje Açıklaması
 Bu proje, AWS üzerinde EC2 altyapısının Terraform kullanılarak otomatik ve tekrarlanabilir şekilde oluşturulmasını amaçlayan bir uygulama çalışmasıdır. Projede, biri Elastic IP ve ek EBS diski ile yapılandırılmış, diğeri ise daha basit test amaçlı olmak üzere iki EC2 instance oluşturulmuştur. User Data betikleri ile web sunucusu kurulumu otomatikleştirilmiştir. Çalışma, Infrastructure as Code (IaC) yaklaşımının pratik olarak uygulanmasına yöneliktir.
