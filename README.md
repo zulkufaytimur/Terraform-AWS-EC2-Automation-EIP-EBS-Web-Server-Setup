@@ -1,2 +1,35 @@
-# Terraform-AWS-EC2-Automation-EIP-EBS-Web-Server-Setup
-Bu proje, AWS üzerinde EC2 altyapısını Terraform ile otomatik ve tekrarlanabilir şekilde oluşturmayı amaçlayan bir çalışmadır. Elastic IP, EBS volume ve User Data ile web sunucusu kurulumu otomatikleştirilmiş, güvenlik grubu ve disk yönetimi IaC yaklaşımıyla pratik olarak uygulanmıştır.
+# Terraform AWS EC2 Otomasyonu — EIP, EBS ve Web Sunucusu Kurulumu
+
+## 📌 Proje Açıklaması
+Bu proje, AWS üzerinde EC2 altyapısının Terraform kullanılarak otomatik ve tekrarlanabilir şekilde oluşturulmasını amaçlayan bir uygulama çalışmasıdır. Projede, biri Elastic IP ve ek EBS diski ile yapılandırılmış, diğeri ise daha basit test amaçlı olmak üzere iki EC2 instance oluşturulmuştur. User Data betikleri ile web sunucusu kurulumu otomatikleştirilmiştir. Çalışma, Infrastructure as Code (IaC) yaklaşımının pratik olarak uygulanmasına yöneliktir.
+
+## 🛠️ Kullanılan Teknolojiler
+- Terraform  
+- AWS EC2  
+- Elastic IP  
+- EBS Volume  
+- Security Groups  
+- User Data Otomasyonu  
+
+## 🚀 Projede Öğrenilen / Gösterilen Kazanımlar
+- AWS üzerinde altyapı otomasyonu
+- EBS diskin eklenmesi ve yönetimi
+- Elastic IP ile EC2 yapılandırması
+- Otomatik web sunucusu kurulumu
+- Security Group yapılandırması
+- Terraform state ve provisioning mantığı
+
+## 📂 Proje Dosya Yapısı
+- `main.tf` — Temel kaynaklar ve EC2 yapılandırması  
+- `variables.tf` — Girdi değişkenleri  
+- `providers.tf` — AWS provider ayarları  
+- `outputs.tf` — Çıktı değerleri  
+
+## 🔧 Gelecek Geliştirmeler
+- Docker kurulumu ve container tabanlı dağıtım
+- Nginx ile web uygulaması yayını
+- Çoklu instance mimarisi
+- Load balancer entegrasyonu
+
+## 🎯 Projenin Amacı
+Terraform ve AWS üzerinde altyapı otomasyonu konularında pratik deneyim kazanmak ve DevOps odaklı çalışma mantığını geliştirmek.
